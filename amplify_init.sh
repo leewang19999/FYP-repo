@@ -11,7 +11,7 @@ export homepagescene=./sumerian_exports_0ef6a5810f964ec6bebdee28cde0055e.json
 # AWS Profile setting
 aws configure set aws_access_key_id $access_key_id
 aws configure set aws_secret_access_key $secret_access_key
-aws configure set default.region us-east-1
+aws configure set default.region ap-southeast-1
 
 
 
