@@ -41,8 +41,6 @@ PROVIDERS="{\
 \"awscloudformation\":$AWSCLOUDFORMATIONCONFIG\
 }"
 
-echo $access_key_id
-curl -sL https://aws-amplify.github.io/amplify-cli/install | zsh && $SHELL
 
 # Amplify init
 amplify init \
