@@ -41,6 +41,8 @@ PROVIDERS="{\
 \"awscloudformation\":$AWSCLOUDFORMATIONCONFIG\
 }"
 
+echo $access_key_id
+
 # Amplify init
 amplify init \
 --amplify $AMPLIFY \
